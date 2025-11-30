@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Replace with your actual Gemini API Key
-API_KEY = "AIzaSyDckZxI4jju2z0AurCIOejt3bCUJ59OlZc"
+API_KEY = "#########################"
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent?key={API_KEY}"
 
 # 🔮 PREDICTION ROUTE

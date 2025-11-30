@@ -1,0 +1,66 @@
+.kundli-form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fdf9f3;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #4a2c8c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: #444;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+button {
+  background-color: #6e44ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #5936d8;
+}
+
+.prediction-box, .chat-box {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #fff6e6;
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+
+.chat-box input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+}
+
+.chat-response {
+  margin-top: 15px;
+  color: #333;
+  font-style: italic;
+}
